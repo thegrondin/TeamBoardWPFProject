@@ -1,0 +1,50 @@
+﻿<UserControl x:Class="MVVMCustomPresentation.Views.UserControls.BoardSimpleUserControl"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:MVVMCustomPresentation.Views.UserControls"
+             mc:Ignorable="d" 
+             d:DesignHeight="360" d:DesignWidth="250">
+    <Grid>
+        <Label Content="PLANCHE 1" HorizontalAlignment="Left" Margin="0,10,0,0" VerticalAlignment="Top" Foreground="#FFD6D6D6" FontWeight="Bold"/>
+        <Grid Margin="0,40.96,0,0">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="1*"/>
+                <ColumnDefinition Width="1*"/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="52*"/>
+                <RowDefinition Height="267*"/>
+            </Grid.RowDefinitions>
+
+            <Button Content="Se connecter &#xD;&#xA; vocalement" Grid.Column="0" Margin="5" Background="#FF0074D9" BorderBrush="#00707070" Foreground="White"/>
+            <Button Content="Activer son" Grid.Column="1" Margin="5" Background="#FF0074D9" BorderBrush="#00707070" Foreground="White"/>
+            <Grid Grid.Row="1" Grid.ColumnSpan="2">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="1*"/>
+                    <RowDefinition Height="1*"/>
+                    <RowDefinition Height="5*"/>
+                    <RowDefinition Height="1*"/>
+                </Grid.RowDefinitions>
+                <Label Content="Envoyer un message" HorizontalAlignment="Left"  VerticalAlignment="Top" Foreground="#FFD6D6D6" FontWeight="Bold" Height="25.96" Width="124.547" />
+                <TextBox Margin="3" Grid.Row="1" TextWrapping="Wrap" Text="Destinataire" />
+                <TextBox Margin="3" Grid.Row="2" TextWrapping="Wrap" Text="Message" />
+                
+                <Grid Grid.Row="3">
+
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition />
+                        <ColumnDefinition />
+                    </Grid.ColumnDefinitions>
+                    
+                    <Button Content="Envoyer" Grid.Column="1" Margin="3" Background="#FF0074D9" BorderBrush="#00707070" Foreground="White" />
+                </Grid>
+                
+            </Grid>
+            
+        </Grid>
+
+
+    </Grid>
+</UserControl>

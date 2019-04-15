@@ -1,0 +1,34 @@
+﻿<Page x:Class="MVVMCustomPresentation.Views.ConnectionControlView"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:MVVMCustomPresentation.Views"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="ConnectionControlView" Background="#FF1A1A1D">
+
+    <Grid Background="#FF1A1A1D">
+
+        <Grid VerticalAlignment="Center" Height="188" Width="342.858" HorizontalAlignment="center" >
+            <Grid.RowDefinitions>
+                <RowDefinition Height="71*"/>
+                <RowDefinition Height="34*"/>
+                <RowDefinition Height="34*"/>
+                <RowDefinition Height="49*"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="88*"/>
+                <ColumnDefinition Width="255*"/>
+            </Grid.ColumnDefinitions>
+            <Label Content="PLANCHE DE TRAVAIL" HorizontalAlignment="Left" Margin="0,35.04,0,0" VerticalAlignment="Top" Foreground="#FFDEDEDE" FontWeight="Bold" Grid.ColumnSpan="2" Height="25.96" Width="135.003"/>
+            <TextBox   TextWrapping="Wrap" Grid.Column="1" Grid.Row="1" Margin="0,2"/>
+            <TextBox  TextWrapping="Wrap" Grid.Column="1" Grid.Row="2" Margin="0,2"/>
+            <Label Content="Utilisateur: " Margin="0,6.04,16.541,0" VerticalAlignment="Top" Foreground="White" Height="25.96" Grid.Row="1"/>
+            <Label Content="Mot de passe:" Margin="0,4.5,4.551,0" VerticalAlignment="Top" Foreground="White" Height="25.96" Grid.Row="2"/>
+            <Button Content="Button" HorizontalAlignment="Right" VerticalAlignment="Top" Width="117" Height="39" Grid.Column="1" Grid.Row="3" Background="#FF0074D9" BorderBrush="#01707070" Foreground="White"/>
+            <AccessText Grid.Column="1" HorizontalAlignment="Left" Height="18.5" Margin="0,3,0,0" Grid.Row="3" VerticalAlignment="Top" Width="112.5" Text="Créer un compte" Foreground="White"/>
+        </Grid>
+
+    </Grid>
+</Page>

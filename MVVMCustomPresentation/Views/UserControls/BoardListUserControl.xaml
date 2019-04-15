@@ -1,0 +1,24 @@
+﻿<UserControl x:Class="MVVMCustomPresentation.Views.UserControls.BoardListUserControl"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:MVVMCustomPresentation.Views.UserControls"
+             mc:Ignorable="d" 
+             d:DesignHeight="360" d:DesignWidth="250">
+    <Grid>
+        <Label Content="PLANCHES" HorizontalAlignment="Left" Margin="0,10,0,0" VerticalAlignment="Top" Foreground="#FFD6D6D6" FontWeight="Bold"/>
+        <ListBox HorizontalAlignment="Left" Height="319.04" Margin="0,40.96,0,0" VerticalAlignment="Top" Width="250" Background="#FF101011" BorderBrush="#FF1A1A1D">
+            <ListBoxItem Content="Planche 1" Foreground="WhiteSmoke" Height="42.627" FontWeight="Bold" FontSize="14"/>
+            <ListBoxItem Content="Planche 2" Foreground="WhiteSmoke" Height="42.627" FontWeight="Bold" FontSize="14"/>
+            <ListBoxItem Content="Planche 3" Foreground="WhiteSmoke" Height="42.627" FontWeight="Bold" FontSize="14"/>
+            <ListBoxItem Content="Planche 4" Foreground="WhiteSmoke" Height="42.627" FontWeight="Bold" FontSize="14"/>
+            <ListBoxItem Content="Planche 5" Foreground="WhiteSmoke" Height="42.627" FontWeight="Bold" FontSize="14"/>
+            <ListBoxItem Content="Planche 6" Foreground="WhiteSmoke" Height="42.627" FontWeight="Bold" FontSize="14"/>
+            <ListBoxItem Content="Planche 7" Foreground="WhiteSmoke" Height="42.627" FontWeight="Bold" FontSize="14"/>
+            <ListBoxItem Content="Planche 8" Foreground="WhiteSmoke" Height="42.627" FontWeight="Bold" FontSize="14"/>
+            <ListBoxItem Content="Planche 9" Foreground="WhiteSmoke" Height="42.627" FontWeight="Bold" FontSize="14"/>
+            <ListBoxItem Content="Planche 10" Foreground="WhiteSmoke" Height="42.627" FontWeight="Bold" FontSize="14"/>
+        </ListBox>
+    </Grid>
+</UserControl>
